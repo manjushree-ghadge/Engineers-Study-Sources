@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_pdf"
+        android:icon="@drawable/pdf"
+        android:title="Pdf" />
+
+<!--    <item-->
+<!--        android:id="@+id/nav_video"-->
+<!--        android:icon="@drawable/video"-->
+<!--        android:title="Videos" />-->
+
+    <item
+        android:id="@+id/nav_imp"
+        android:icon="@drawable/imp"
+        android:title="Important Topics" />
+</group>
+
+
+        <item
+            android:title="Profile">
+            <menu>
+                <group android:checkableBehavior="single">
+<!--                    <item-->
+<!--                        android:id="@+id/nav_login"-->
+<!--                        android:icon="@drawable/login"-->
+<!--                        android:title="Login" />-->
+
+                    <item
+                        android:id="@+id/nav_profile"
+                        android:icon="@drawable/profile"
+                        android:title="Profile" />
+
+                    <item
+                        android:id="@+id/nav_logout"
+                        android:icon="@drawable/logout_icon"
+                        android:title="Logout" />
+                </group>
+            </menu>
+            </item>
+
+    <item android:title="Communicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/rate"
+                android:title="Rate Us" />
+        </menu>
+    </item>
+</menu>

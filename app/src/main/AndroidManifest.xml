@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.registration">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Btn_Cs_Ai_Activity"></activity>
+        <activity android:name=".Btn_Cs_Cn_Activity"></activity>
+        <activity android:name=".Btn_Cs_Toc_Activity"></activity>
+        <activity android:name=".Btn_Cs_Os_Activity"></activity>
+        <activity android:name=".Btn_Cs_Dbms_Activity"></activity>
+        <activity android:name=".Btn_Cs_Ds_Activity"></activity>
+        <activity android:name=".Btn_Cs_Cd_Activity"></activity>
+        <activity android:name=".Btn_Cs_Se_Activity"></activity>
+        <activity android:name=".Btn_Civ_Fm_Activity"></activity>
+        <activity android:name=".Btn_Civ_Sa_Activity"></activity>
+        <activity android:name=".Btn_Civ_Tre_Activity"></activity>
+        <activity android:name=".Btn_Civ_Std_Activity"></activity>
+        <activity android:name=".Btn_Civ_Sm_Activity"></activity>
+        <activity android:name=".Btn_Civ_Wre_Activity"></activity>
+        <activity android:name=".Btn_Civ_Sur_Activity"></activity>
+        <activity android:name=".Btn_Civ_Drcs_Activity"></activity>
+        <activity android:name=".Btn_Elec_Em_Activity"></activity>
+        <activity android:name=".Btn_Elec_Ps_Activity"></activity>
+        <activity android:name=".Btn_Elec_Mp_Activity"></activity>
+        <activity android:name=".Btn_Elec_Ema_Activity"></activity>
+        <activity android:name=".Btn_Elec_Elci_Activity"></activity>
+        <activity android:name=".Btn_Elec_Nwas_Activity"></activity>
+        <activity android:name=".Btn_Elec_Cosy_Activity"></activity>
+        <activity android:name=".Btn_Elec_Elements_Activity"></activity>
+        <activity android:name=".Btn_Electronics_Eac_Activity"></activity>
+        <activity android:name=".Btn_Electronics_Ds_Activity"></activity>
+        <activity android:name=".Btn_Electronics_Ss_Activity"></activity>
+        <activity android:name=".Btn_Electronics_Dcn_Activity"></activity>
+        <activity android:name=".Btn_Electronics_Vlsi_Activity"></activity>
+        <activity android:name=".Btn_Electronics_Ict_Activity"></activity>
+        <activity android:name=".Btn_Electronics_Pe_Activity"></activity>
+        <activity android:name=".Btn_Electronics_Dc_Activity"></activity>
+        <activity android:name=".Btn_Mech_Thermo_Activity"></activity>
+        <activity android:name=".Btn_Mech_Kom_Activity"></activity>
+        <activity android:name=".Btn_Mech_Md_Activity"></activity>
+        <activity android:name=".Btn_Mech_Pp_Activity"></activity>
+        <activity android:name=".Btn_Mech_Mt_Activity"></activity>
+        <activity android:name=".Btn_Mech_Mm_Activity"></activity>
+        <activity android:name=".Btn_Mech_Dom_Activity"></activity>
+        <activity android:name=".Btn_Agri_Bio_Activity"></activity>
+        <activity android:name=".Btn_Agri_Boa_Activity"></activity>
+        <activity android:name=".Btn_Agri_Sm_Activity"></activity>
+        <activity android:name=".Btn_Agri_Fm_Activity"></activity>
+        <activity android:name=".Btn_Agri_Spm_Activity"></activity>
+        <activity android:name=".Btn_Agri_Tm_Activity"></activity>
+        <activity android:name=".Btn_Agri_Api_Activity"></activity>
+
+
+
+        <activity android:name=".Forgot_Password_Activity" />
+        <activity android:name=".Topic_Activity" />
+        <activity android:name=".Department.AgricultureActivity" />
+        <activity android:name=".Department.ElectronicsActivity" />
+        <activity android:name=".Department.ElectricalActivity" />
+        <activity android:name=".Department.MechanicalActivity" />
+        <activity android:name=".Department.Computer_Activity" />
+        <activity android:name=".Department.Civil_Activity" />
+        <activity android:name=".ImpActivity" />
+        <activity android:name=".PdfActivity" />
+        <activity android:name=".DashboardActivity" />
+        <activity android:name=".NavActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".Home_Activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

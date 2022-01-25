@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Registration</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="expand_all">Expand All</string>
+    <string name="title_activity_cn_tab">Cn_tab_Activity</string>
+    <string name="tab_text_1">PDF</string>
+    <string name="tab_text_2">Videos</string>
+    <string name="tab_text_3">Links</string>
+    <string name="check_remember">Remember me</string>
+    <string name = "card_view_test">Card View Title</string>
+
+
+</resources>

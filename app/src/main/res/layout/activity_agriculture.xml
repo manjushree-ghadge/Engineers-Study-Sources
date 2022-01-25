@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Department.Computer_Activity"
+    android:background="@color/colorWhite">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:id="@+id/back_pressed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/backarrow"
+                android:padding="15dp"
+                android:layout_centerVertical="true"/>
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Your Subject"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:fontFamily="@font/almendra_bold"
+            android:padding="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="25dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/navyblue1"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/cn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="86dp"
+                        android:text="Biotechnology"
+                        android:textColor="#ffff"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+                    <ImageView
+                        android:id="@+id/fwarrow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/fwarrow"
+                        android:padding="15dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"/>
+
+
+                    <!--            <Button-->
+                    <!--                android:id="@+id/cnbtn"-->
+                    <!--                android:layout_width="34dp"-->
+                    <!--                android:layout_height="63dp"-->
+                    <!--                android:layout_alignParentRight="true"-->
+                    <!--                android:layout_alignParentBottom="true"-->
+                    <!--                android:layout_marginRight="14dp"-->
+                    <!--                android:layout_marginBottom="6dp"-->
+                    <!--                android:background="#00000000"-->
+                    <!--                android:padding="10dp"-->
+                    <!--                -->
+                    <!--                android:text="@string/expand_all"-->
+                    <!--                android:textColor="#ffff" />-->
+
+                    <ImageView
+                        android:id="@+id/agri_bio"
+                        android:layout_width="104dp"
+                        android:layout_height="107dp"
+                        android:layout_alignParentLeft="true"
+                        android:maxHeight="100dp">
+
+
+                    </ImageView>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/navyblue1"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/toc"
+                        android:layout_width="178dp"
+                        android:layout_height="86dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="76dp"
+                        android:text="Basic of Agricultural Engineering"
+                        android:textColor="#ffff"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+                    <ImageView
+                        android:id="@+id/fwarrow1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/fwarrow"
+                        android:padding="15dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"/>
+
+                    <ImageView
+                        android:id="@+id/agri_basics_agri"
+                        android:layout_width="104dp"
+                        android:layout_height="103dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="0dp"
+                        android:maxHeight="100dp">
+
+
+                    </ImageView>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/navyblue1"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/ai"
+                        android:layout_width="165dp"
+                        android:layout_height="74dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="82dp"
+                        android:text="Statistical Methods"
+                        android:textColor="#ffff"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+                    <ImageView
+                        android:id="@+id/fwarrow2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/fwarrow"
+                        android:padding="15dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"/>
+
+                    <ImageView
+                        android:id="@+id/stats_method"
+                        android:layout_width="107dp"
+                        android:layout_height="102dp"
+                        android:layout_alignParentLeft="true"
+                        android:maxHeight="100dp">
+
+
+                    </ImageView>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/navyblue1"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/cs"
+                        android:layout_width="176dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="72dp"
+                        android:text="Agricultural Process in Industries"
+                        android:textColor="#ffff"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/fwarrow3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/fwarrow"
+                        android:padding="15dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"/>
+
+                    <ImageView
+                        android:id="@+id/agri_industry"
+                        android:layout_width="110dp"
+                        android:layout_height="103dp"
+                        android:layout_alignParentLeft="true"
+                        android:maxHeight="100dp">
+
+                    </ImageView>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/navyblue1"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/dbms"
+                        android:layout_width="158dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="82dp"
+                        android:text="Tools and Control of Machines"
+                        android:textColor="#ffff"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+                    <ImageView
+                        android:id="@+id/fwarrow4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/fwarrow"
+                        android:padding="15dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"/>
+
+                    <ImageView
+                        android:id="@+id/agri_tools_control"
+                        android:layout_width="110dp"
+                        android:layout_height="103dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="2dp"
+                        android:maxHeight="100dp">
+
+                    </ImageView>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/navyblue1"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/pc"
+                        android:layout_width="166dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="82dp"
+                        android:text="Farm Machinery"
+                        android:textColor="#ffff"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+                    <ImageView
+                        android:id="@+id/fwarrow5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/fwarrow"
+                        android:padding="15dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"/>
+
+                    <ImageView
+                        android:id="@+id/agri_farm"
+                        android:layout_width="111dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:maxHeight="100dp">
+
+
+                    </ImageView>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/navyblue1"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/cd"
+                        android:layout_width="169dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="82dp"
+                        android:text="Soil Mechanics and Physics"
+                        android:textColor="#ffff"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/fwarrow6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/fwarrow"
+                        android:padding="15dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"/>
+
+                    <ImageView
+                        android:id="@+id/agri_soil_mech"
+                        android:layout_width="103dp"
+                        android:layout_height="94dp"
+                        android:layout_alignParentLeft="true"
+                        android:maxHeight="100dp">
+
+
+                    </ImageView>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="120dp"-->
+<!--                app:cardCornerRadius="15dp"-->
+<!--                android:layout_marginTop="20dp">-->
+
+<!--                <RelativeLayout-->
+<!--                    android:layout_width="402dp"-->
+<!--                    android:layout_height="116dp"-->
+<!--                    android:background="@drawable/navyblue1"-->
+<!--                    android:padding="10dp">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/se"-->
+<!--                        android:layout_width="167dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignParentRight="true"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:layout_marginRight="82dp"-->
+<!--                        android:text="Software Engineering"-->
+<!--                        android:textColor="#ffff"-->
+<!--                        android:textSize="25dp"-->
+<!--                        android:textStyle="bold" />-->
+<!--                    <ImageView-->
+<!--                        android:id="@+id/fwarrow7"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:src="@drawable/fwarrow"-->
+<!--                        android:padding="15dp"-->
+<!--                        android:layout_centerVertical="true"-->
+<!--                        android:layout_alignParentRight="true"/>-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="110dp"-->
+<!--                        android:layout_height="103dp"-->
+<!--                        android:layout_alignParentLeft="true"-->
+<!--                        android:maxHeight="100dp"-->
+<!--                        android:src="@drawable/se">-->
+
+<!--                    </ImageView>-->
+
+<!--                </RelativeLayout>-->
+
+<!--            </androidx.cardview.widget.CardView>-->
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
